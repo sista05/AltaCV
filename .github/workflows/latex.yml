@@ -30,4 +30,4 @@ jobs:
         run: |
           git add .
           git commit -m "LaTeX compilation"
-          git push fix/test1 pdf
+          git push origin pdf
