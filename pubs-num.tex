@@ -1,0 +1,7 @@
+\usepackage[backend=biber,style=ieee,sorting=none]{biblatex}
+%% For removing numbering entirely when using a numeric style
+\setlength{\bibhang}{2em}
+\DeclareFieldFormat{labelnumberwidth}{\makebox[\bibhang][l]{[#1]}}
+\setlength{\biblabelsep}{0pt}
+\defbibheading{pubtype}{\cvsubsection{#1}}
+\renewcommand{\bibsetup}{\vspace*{-\baselineskip}}g
