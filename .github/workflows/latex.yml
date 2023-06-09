@@ -24,7 +24,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file:
-            sample.tex
+            mmayer.tex
 
       - name: Push PDF file
         run: |
